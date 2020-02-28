@@ -10,10 +10,10 @@ public class SummerdressesSteps extends TestBase{
 	DressesCategoryPage categoryPage= new DressesCategoryPage();
 	
 	
-	@Given("^user navigates to the site$")
-	public void user_navigates_to_the_site() throws Throwable {
+/*	@Given("^user opens the browser$")
+	public void user_opens_the_browser() throws Throwable {
 		TestBase.initialization();
-	}
+	}*/
 
 	@Given("^select \"([^\"]*)\" from the Dresses Tab$")
 	public void select_from_the_Dresses_Tab(String arg1) throws Throwable {
