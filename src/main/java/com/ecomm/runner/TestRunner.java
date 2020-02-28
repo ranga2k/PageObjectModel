@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="/Users/tmbadmin/Documents/MockTest/EcommerceApp/src/main/java/com/ecomm/qa/features",
+		features ="src/main/java/com/ecomm/qa/features/SummerDresses.feature",
 		glue={"com/ecomm/qa/stepdefinitions"},//path to the step definitions
 		format = {"pretty", "html:target/Destination"},
 		monochrome=true, //display the ouput in readable format
@@ -17,5 +17,4 @@ import cucumber.api.junit.Cucumber;
 
 public class TestRunner {
 	
-
 }
